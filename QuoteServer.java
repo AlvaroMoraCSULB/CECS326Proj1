@@ -23,8 +23,7 @@ public class QuoteServer {
                 int randomquote = rand.nextInt(quotes.length);
                 String quote = quotes[randomquote];
                 pout.println(quote);
-                /* close the socket and resume */
-                /* listening for connections */
+                // close the socket
                 client.close();
             }
         }
